@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink } from "vue-router";
 import { ref, watch } from "vue";
-import { useWindowsWidth } from "../../assets/js/useWindowsWidth";
+import { useWindowsWidth } from "@/assets/js/useWindowsWidth";
 
 // images
 import ArrDark from "@/assets/img/down-arrow-dark.svg";
@@ -17,7 +17,7 @@ const props = defineProps({
     default: () => ({
       route: "https://www.creative-tim.com/product/vue-material-kit",
       color: "bg-gradient-success",
-      label: "Free Download"
+      label: "Testes Vocacionais"
     })
   },
   transparent: {
@@ -134,13 +134,9 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        Material Design
+        Prefaculdade
       </RouterLink>
-      <a
-        href="https://www.creative-tim.com/product/vue-material-kit-pro"
-        class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block"
-        >Buy Now</a
-      >
+      
       <button
         class="navbar-toggler shadow-none ms-2"
         type="button"
@@ -768,7 +764,7 @@ watch(
                 :class="getTextColor()"
                 >article</i
               >
-              Docs
+              Exames de Admissao
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
