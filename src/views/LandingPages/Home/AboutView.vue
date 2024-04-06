@@ -59,13 +59,11 @@ onUnmounted(() => {
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
-            <h1 class="text-white">
-              Work with an amazing <span class="text-white" id="typed"></span>
-            </h1>
             <div id="typed-strings">
-              <h1>team</h1>
-              <h1>design</h1>
-              <h1>tool</h1>
+              <h1>Orientação Vocacional e Profissional.</h1>
+              <h1>Cursos Médios e de Licenciatura.</h1>
+              <h1> Instituições de Ensino Médio e Superior.</h1>
+              <h1>Exames de Admissão Personalizados.</h1>
             </div>
             <p class="lead mb-4 text-white opacity-8">
               We’re constantly trying to express ourselves and actualize our
