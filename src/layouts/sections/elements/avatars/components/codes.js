@@ -1,7 +1,7 @@
 export const avatarGroupCode = `<script setup>
 import { onMounted } from "vue";
 
-//Vue Material Kit 2 components
+//Vue Prefaculdade components
 import MaterialAvatar from "@/components/MaterialAvatar.vue";
 
 // images
@@ -71,7 +71,7 @@ onMounted(() => {
 `;
 
 export const avatarSizeCode = `<script setup>
-//Vue Material Kit 2 components
+//Vue Prefaculdade components
 import MaterialAvatar from "@/components/MaterialAvatar.vue";
 
 // image

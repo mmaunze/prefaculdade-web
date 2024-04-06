@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted } from "vue";
-//Vue Material Kit 2 components
+//Vue Prefaculdade components
 import MaterialButton from "@/components/MaterialButton.vue";
 import MaterialInput from "@/components/MaterialInput.vue";
 import MaterialTextArea from "@/components/MaterialTextArea.vue";

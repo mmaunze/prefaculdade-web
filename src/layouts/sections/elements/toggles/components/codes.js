@@ -1,5 +1,5 @@
 export const toggleCode = `<script setup>
-//Vue Material Kit 2 components
+//Vue Prefaculdade components
 import MaterialSwitch from "@/components/MaterialSwitch.vue";
 </script>
 <template>
@@ -20,7 +20,7 @@ import MaterialSwitch from "@/components/MaterialSwitch.vue";
 `;
 
 export const toggleContextCode = `<script setup>
-//Vue Material Kit 2 components
+//Vue Prefaculdade components
 import MaterialSwitch from "@/components/MaterialSwitch.vue";
 </script>
 <template>

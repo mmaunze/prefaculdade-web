@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-//Vue Material Kit 2 components
+//Vue Prefaculdade components
 import MaterialButton from "@/components/MaterialButton.vue";
 
 let showDropdown = ref(false);

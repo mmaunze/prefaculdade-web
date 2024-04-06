@@ -1,5 +1,5 @@
 <script setup>
-//Vue Material Kit 2 components
+//Vue Prefaculdade components
 import MaterialBadge from "@/components/MaterialBadge.vue";
 </script>
 <template>

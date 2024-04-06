@@ -7,7 +7,7 @@ import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 import Header from "../../examples/Header.vue";
 import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
 
-//Vue Material Kit 2 components
+//Vue Prefaculdade components
 import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
 
 // sections
@@ -62,7 +62,7 @@ onUnmounted(() => {
               class="text-white pt-3 mt-n5 me-2"
               :style="{ display: 'inline-block ' }"
             >
-              Material Kit 2
+              Prefaculdade
             </h1>
             <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
               Start the Development With Bootstrap 5 Design System inspired by
