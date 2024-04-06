@@ -27,10 +27,10 @@ onMounted(() => {
     // eslint-disable-next-line no-unused-vars
     var typed = new Typed("#typed", {
       stringsElement: "#typed-strings",
-      typeSpeed: 90,
+      typeSpeed: 100,
       backSpeed: 90,
-      backDelay: 200,
-      startDelay: 500,
+      backDelay: 100,
+      startDelay: 300,
       loop: true,
     });
   }
@@ -59,11 +59,12 @@ onUnmounted(() => {
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
+            <h1 class="text-white"><span class="text-white" id="typed"></span></h1>
             <div id="typed-strings">
-              <h1>Orientação Vocacional e Profissional.</h1>
               <h1>Cursos Médios e de Licenciatura.</h1>
               <h1> Instituições de Ensino Médio e Superior.</h1>
               <h1>Exames de Admissão Personalizados.</h1>
+              <h1>Orientação Vocacional e Profissional.</h1>
             </div>
             <p class="lead mb-4 text-white opacity-8">
               We’re constantly trying to express ourselves and actualize our
