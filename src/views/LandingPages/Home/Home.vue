@@ -2,8 +2,8 @@
 import { onMounted, onUnmounted } from "vue";
 
 //example components
-import DefaultNavbar from "@/examples/navbars/NavbarDefault.vue";
-import DefaultFooter from "@/examples/footers/FooterDefault.vue";
+import DefaultNavbar from "@/components/navbars/NavbarDefault.vue";
+import DefaultFooter from "@/components/footers/FooterDefault.vue";
 
 //image
 import capa from "@/assets/img/bg9.jpg";
@@ -12,10 +12,9 @@ import capa from "@/assets/img/bg9.jpg";
 import Typed from "typed.js";
 
 //sections
-import Information from "./Sections/AboutInformation.vue";
-import AboutTeam from "./Sections/AboutTeam.vue";
-import Featuring from "./Sections/AboutFeaturing.vue";
-import Newsletter from "./Sections/AboutNewsletter.vue";
+import Information from "./Sections/Info.vue";
+import AboutTeam from "./Sections/Conteudos.vue";
+import Newsletter from "./Sections/Registo.vue";
 
 const body = document.getElementsByTagName("body")[0];
 //hooks
@@ -81,7 +80,6 @@ onUnmounted(() => {
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
     <Information />
     <AboutTeam />
-    <Featuring />
     <Newsletter />
   </div>
   <DefaultFooter />

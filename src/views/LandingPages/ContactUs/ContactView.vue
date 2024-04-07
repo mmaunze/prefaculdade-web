@@ -2,8 +2,8 @@
 import { onMounted } from "vue";
 
 //example components
-import DefaultNavbar from "@/examples/navbars/NavbarDefault.vue";
-import DefaultFooter from "@/examples/footers/FooterDefault.vue";
+import DefaultNavbar from "@/components/navbars/NavbarDefault.vue";
+import DefaultFooter from "@/components/footers/FooterDefault.vue";
 
 //image
 import image from "@/assets/img/illustrations/illustration-signin.jpg";

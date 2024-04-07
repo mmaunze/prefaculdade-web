@@ -2,11 +2,11 @@
 import { onMounted } from "vue";
 
 // Sections components
-import BaseLayout from "../../components/BaseLayout.vue";
+import BaseLayout from "@/layouts/sections/components/BaseLayout.vue";
 import View from "../../components/View.vue";
 
 // Breadcrumbs page component
-import Breadcrumbs from "@/examples/Breadcrumbs.vue";
+import Breadcrumbs from "@/components/Breadcrumbs.vue";
 
 // Breadcrumbs page component code
 import { breadcrumbsCode } from "./code";

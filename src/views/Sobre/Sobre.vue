@@ -2,16 +2,16 @@
 import { onMounted, onUnmounted } from "vue";
 
 //example components
-import NavbarDefault from "../..//examples/navbars/NavbarDefault.vue";
-import DefaultFooter from "../../examples/footers/FooterDefault.vue";
-import Header from "../../examples/Header.vue";
+import NavbarDefault from "@/components/navbars/NavbarDefault.vue";
+import DefaultFooter from "@/components/footers/FooterDefault.vue";
+import Header from "@/components/Header.vue";
 import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
 
 //Vue Prefaculdade components
 import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
 
 // sections
-import PresentationCounter from "./Sections/PresentationCounter.vue";
+import PresentationCounter from "./Sections/Contadores.vue";
 import PresentationInformation from "./Sections/PresentationInformation.vue";
 
 //images
@@ -152,7 +152,6 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
-
     <div class="py-5">
       <div class="container">
         <div class="row">

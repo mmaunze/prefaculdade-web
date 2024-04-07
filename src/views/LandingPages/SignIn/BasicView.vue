@@ -2,8 +2,8 @@
 import { onMounted } from "vue";
 
 // example components
-import DefaultNavbar from "@/examples/navbars/NavbarDefault.vue";
-import Header from "@/examples/Header.vue";
+import DefaultNavbar from "@/components/navbars/NavbarDefault.vue";
+import Header from "@/components/Header.vue";
 
 //Vue Prefaculdade components
 import MaterialInput from "@/components/MaterialInput.vue";

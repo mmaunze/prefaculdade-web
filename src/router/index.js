@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Sobre from "@/views/Sobre/PresentationView.vue";
-import Home from "@/views/LandingPages/Home/AboutView.vue";
+import Sobre from "@/views/Sobre/Sobre.vue";
+import Home from "@/views/LandingPages/Home/Home.vue";
 import Contacto from "@/views/LandingPages/ContactUs/ContactView.vue";
 import AuthorView from "@/views/LandingPages/Author/AuthorView.vue";
 import SignInBasicView from "@/views/LandingPages/SignIn/BasicView.vue";
@@ -147,6 +147,18 @@ const router = createRouter({
       component: ElTypography,
     },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { top: 0 };
+    }
+  },
+  // Configurações de transição
+  transition: {
+    name: 'fade',
+    mode: 'out-in'
+  }
 });
 
 export default router;
