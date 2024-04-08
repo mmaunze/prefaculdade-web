@@ -11,34 +11,33 @@ import DefaultCounterCard from "@/components/cards/counterCards/DefaultCounterCa
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="Coded Elements"
-                description="From buttons, to inputs, navbars, alerts or cards, you are
+                title="Cursos"
+                description="Cursos Medios e Superiores Bem detalhados
                   covered"
-                :count="70"
-                suffix="+"
-                :duration="3000"
+                :count="376"
+                suffix=""
+                :duration="3800"
                 divider="vertical"
               />
             </div>
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="Design Blocks"
-                description="Mix the sections, change the colors and unleash your
+                title="Instituicoes de Ensino"
+                description="Universidades, Institutos, Escolas Medias e Superiores
                   creativity"
-                :count="15"
-                suffix="+"
-                :duration="3000"
+                :count="152"
+                suffix=""
+                :duration="3500"
                 divider="vertical"
               />
             </div>
             <div class="col-md-4">
               <DefaultCounterCard
                 color="success"
-                title="Pages"
-                description="Save 3-4 weeks of work when you use our pre-made pages for
-                  your website"
-                :count="4"
+                title="Exames de Admissao"
+                description="Exames de Admissao Personalizados Baseado em Exames Nacionais"
+                :count="662"
                 :duration="3000"
               />
             </div>
