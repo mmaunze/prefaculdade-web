@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Sobre from "@/views/Sobre/Sobre.vue";
 import Home from "@/views/LandingPages/Home/Home.vue";
 import Contacto from "@/views/LandingPages/ContactUs/ContactView.vue";
-import AuthorView from "@/views/LandingPages/Author/AuthorView.vue";
+import CursosLicenciatura from "@/views/LandingPages/Author/CursosLicenciatura.vue";
 import SignInBasicView from "@/views/LandingPages/SignIn/BasicView.vue";
 import PageHeaders from "@/layouts/sections/page-sections/page-headers/HeadersView.vue";
 import PageFeatures from "@/layouts/sections/page-sections/features/FeaturesView.vue";
@@ -42,9 +42,9 @@ const router = createRouter({
       component: Contacto,
     },
     {
-      path: "/pages/landing-pages/author",
-      name: "author",
-      component: AuthorView,
+      path: "/conteudos/cursos/cursos-licenciatura",
+      name: "cursos-licenciatura",
+      component: CursosLicenciatura,
     },
     {
       path: "/pages/landing-pages/basic",
