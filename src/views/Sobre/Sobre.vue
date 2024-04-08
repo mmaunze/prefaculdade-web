@@ -12,7 +12,7 @@ import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
 
 // sections
 import PresentationCounter from "./Sections/Contadores.vue";
-import PresentationInformation from "./Sections/PresentationInformation.vue";
+import PresentationInformation from "./Sections/QuemSomos.vue";
 
 //images
 import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
