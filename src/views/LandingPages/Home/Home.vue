@@ -55,8 +55,10 @@ onUnmounted(() => {
               <h1>Exames de Admissão Personalizados.</h1>
             </div>
             <p class="lead mb-4 mt-4 text-white opacity-8">
-              Aqui você encontrará todas informações necessárias sobre as Instituições públicas e privadas de Ensino em Moçambique
-               bem como informações sobre os diferentes cursos nas diferentes áreas profissionais
+              Explore uma variedade de recursos educacionais, 
+              incluindo cursos de licenciatura e técnicos profissionais,
+               instituições de ensino médio e superior, orientação vocacional e profissional,
+                além de exames de admissão personalizados.
             </p>
             <router-link 
             :to ="{ name :'sobre' }"

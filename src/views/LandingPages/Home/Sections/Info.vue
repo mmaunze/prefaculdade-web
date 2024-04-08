@@ -43,7 +43,9 @@ import orientacao_vocacional from "@/assets/img/pages/inicio/orientacao_vocacion
           <CenteredBlogCard
 :image="orientacao_vocacional"
           title="Orietacao Vocacional e Profissional"
-            description="Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards."
+            description="Descubra o seu caminho profissional ideal! 
+             Faça agora o nosso teste de Orientação Vocacional e Profissional 
+            e dê o primeiro passo em direção a uma carreira que realmente faça sentido para você."
           />
         </div>
       </div>

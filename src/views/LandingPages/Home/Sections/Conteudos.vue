@@ -3,10 +3,10 @@
 import HorizontalTeamCard from "@/components/cards/teamCards/HorizontalTeamCard.vue";
 
 // images
-import licenciatura from "@/assets/img/pages/inicio/licenciatura.jpg";
-import ensino_medio from "@/assets/img/pages/inicio/licenciatura.jpg";
-import escolas from "@/assets/img/ivana-squares.jpg";
-import exames from "@/assets/img/ivana-square.jpg";
+import licenciatura from "@/assets/img/pages/inicio/licenciatura.png";
+import ensino_medio from "@/assets/img/pages/inicio/medio.png";
+import escolas from "@/assets/img/pages/inicio/escolas.png";
+import dicas from "@/assets/img/pages/inicio/dicas.png";
 </script>
 
 <template>
@@ -15,10 +15,13 @@ import exames from "@/assets/img/ivana-square.jpg";
       <div class="row">
         <div class="col-md-8 text-start mb-5 mt-5">
           <h3 class="text-white z-index-1 position-relative">
-            Nossos Conteudos
+            Nossos Conteúdos 
           </h3>
           <p class="text-white opacity-8 mb-0">
-            Todas informacoes que vais encontrar aqui sao 100% Mocambicanos
+            Nossos conteúdos são totalmente moçambicanos, 
+            oferecendo uma perspectiva autêntica e localizada sobre uma variedade de tópicos,
+nosso objetivo é fornecer um guia completo para ajudá-lo 
+            a alcançar seus objetivos acadêmicos e profissionais em Moçambique
           </p>
         </div>
       </div>
@@ -53,18 +56,21 @@ import exames from "@/assets/img/ivana-square.jpg";
             :image="escolas"
             :profile="{ name: 'Escolas, Faculdades e Institutos', link: 'javascript:;' }"
             :position="{ label: 'instituicoes de Ensino', color:'info' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
+            description="Nossa plataforma oferece detalhes sobre diferentes instituições de ensino,
+             seus programas acadêmicos, infraestrutura, corpo docente e muito mais, 
+             para que você possa fazer escolhas informadas sobre sua jornada educacional. 
+             Independentemente de seus interesses, queremos ser seu guia confiável na busca pelo conhecimento e crescimento pessoal. "
           />
         </div>
         <div class="col-lg-6 col-12">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5 z-index-2"
-            :image="exames"
-            :profile="{ name: 'Exames de Admissao' }"
-            :position="{ label: 'JS Developer', color: 'info' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
+            :image="dicas"
+            :profile="{ name: 'Dicas úteis e Sugestões' }"
+            :position="{ label: 'orientação Vocacional', color: 'info' }"
+            description="Fornecemos uma variedade de dicas úteis e sugestões para auxiliar no processo de orientação vocacional. 
+            Reconhecemos a importância crucial de escolher uma carreira que esteja alinhada com seus interesses, habilidades e valores. 
+            Por isso, nosso objetivo é oferecer orientação prática para ajudá-lo a tomar decisões informadas sobre seu futuro profissional."
           />
         </div>
       </div>
