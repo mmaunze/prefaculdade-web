@@ -3,7 +3,7 @@ import { onMounted, onUnmounted } from "vue";
 
 //example components
 
-import DefaultFooter from "@/components/footers/FooterDefault.vue";
+
 import Header from "@/components/Header.vue";
 import FilledInfoCard from "@/components/cards/infoCards/FilledInfoCard.vue";
 

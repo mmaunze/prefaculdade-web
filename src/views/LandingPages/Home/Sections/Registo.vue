@@ -15,17 +15,21 @@ onMounted(() => {
     <div class="container">
       <div class="row">
         <div class="col-md-6 m-auto">
-          <h4>Be the first to see the news</h4>
+          <h4>Inscreva-se agora para receber atualizações exclusivas, 
+            conteúdo relevante diretamente na sua caixa de entrada.</h4>
           <p class="mb-4">
-            Your company may not be in the software business, but eventually, a
-            software company will be in your business.
+            Não perca nenhuma novidade! Ao se inscrever você terá acesso a conteúdos exclusivos, 
+            informações sobre os novos cursos e updates, 
+            Esteja sempre um passo à frente e mantenha-se atualizado sobre as últimas tendências, 
+            dicas úteis e muito mais. 
+            Inscreva-se agora e não deixe escapar nada do que preparamos especialmente para você
           </p>
           <div class="row">
             <div class="col-8">
               <MaterialInput
                 class="input-group-outline"
                 id="email"
-                :label="{ text: 'Email Here...', class: 'form-label' }"
+                :label="{ text: 'Email', class: 'form-label' }"
                 type="email"
               />
             </div>

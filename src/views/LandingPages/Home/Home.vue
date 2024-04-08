@@ -44,7 +44,7 @@ onUnmounted(() => {
       <span class="mask bg-gradient-dark opacity-6"></span>
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-8 text-center mx-auto my-auto">
+          <div class="col-lg-8 text-center mx-auto my-auto mt-4">
             <h1 class="text-white"><span class="text-white" id="typed"></span></h1>
             <div id="typed-strings">
               <h1>Cursos de Licenciatura.</h1>
@@ -55,7 +55,7 @@ onUnmounted(() => {
               <h1>Orientação Profissional</h1>
               <h1>Exames de Admissão Personalizados.</h1>
             </div>
-            <p class="lead mb-4 mt-5 text-white opacity-8">
+            <p class="lead mb-4 mt-4 text-white opacity-8">
               Aqui você encontrará todas informações necessárias sobre as Instituições públicas e privadas de Ensino em Moçambique
                bem como informações sobre os diferentes cursos nas diferentes áreas profissionais
             </p>

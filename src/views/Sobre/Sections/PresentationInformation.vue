@@ -9,14 +9,18 @@ import DefaultInfoCard from "@/components/cards/infoCards/DefaultInfoCard.vue";
     <div class="container">
       <div class="row align-items-center">
        
-        <div class="col-lg-8 ms-auto">
+        <div class="col-md-12 ms-auto">
           <div class="row justify-content-start ">
             <DefaultInfoCard
               class="mt-3"
               icon="info"
               title="Fully Responsive"
-              description="Regardless of the screen size, the website content will
-                  naturally fit the given resolution."
+              description="Escolher uma profissão é algo extremamente complexo e certamente uma das principais dificuldades que temos. 
+              Até porque, temos que fazer uma escolha muito cedo, para algo que levaremos para o resto da vida. 
+              Mesmo na fase adulta, tomar uma decisão desse porte nunca é algo fácil. 
+              E a primeira questão que você deve decidir é acerca da área: qual delas devo seguir? 
+              A área de ciências exatas? Ciências biológicas? Humanas, ou sociais? Engenharia ou medicina? Arquitetura ou línguas? 
+              Para lhe auxiliar nessa escolha, criamos esta plataforma para ti."
             />
           </div>
         </div>

@@ -4,10 +4,10 @@ import TransparentBlogCard from "@/components/cards/blogCards/TransparentBlogCar
 import BackgroundBlogCard from "@/components/cards/blogCards/BackgroundBlogCard.vue";
 
 //Vue Prefaculdade components
-import post1 from "@/assets/img/examples/testimonial-6-2.jpg";
-import post2 from "@/assets/img/examples/testimonial-6-3.jpg";
-import post3 from "@/assets/img/examples/blog-9-4.jpg";
-import post4 from "@/assets/img/examples/blog2.jpg";
+import post1 from "@/assets/img/pages/testimonial-6-2.jpg";
+import post2 from "@/assets/img/pages/testimonial-6-3.jpg";
+import post3 from "@/assets/img/pages/blog-9-4.jpg";
+import post4 from "@/assets/img/pages/blog2.jpg";
 </script>
 <template>
   <section class="py-3">
