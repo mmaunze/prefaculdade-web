@@ -2,7 +2,7 @@
 // example components
 import DefaultInfoCard from "@/components/cards/infoCards/DefaultInfoCard.vue";
 import CenteredBlogCard from "@/components/cards/blogCards/CenteredBlogCard.vue";
-import orientacao_vocacional from "@/assets/img/pages/home/orientacao_vocacional.jpg"
+import orientacao_vocacional from "@/assets/img/pages/inicio/orientacao_vocacional.jpg"
 
 </script>
 <template>

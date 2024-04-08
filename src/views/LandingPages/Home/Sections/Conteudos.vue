@@ -3,8 +3,8 @@
 import HorizontalTeamCard from "@/components/cards/teamCards/HorizontalTeamCard.vue";
 
 // images
-import licenciatura from "@/assets/img/pages/home/licenciatura.jpg";
-import ensino_medio from "@/assets/img/pages/home/licenciatura.jpg";
+import licenciatura from "@/assets/img/pages/inicio/licenciatura.jpg";
+import ensino_medio from "@/assets/img/pages/inicio/licenciatura.jpg";
 import escolas from "@/assets/img/ivana-squares.jpg";
 import exames from "@/assets/img/ivana-square.jpg";
 </script>
