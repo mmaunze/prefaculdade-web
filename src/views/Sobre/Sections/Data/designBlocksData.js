@@ -4,7 +4,7 @@
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vue-material-kit-pro
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Copyright 2021Prefaculdade (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -53,84 +53,84 @@ export default [
         image: imgPricing,
         title: "Pricing",
         subtitle: "8 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
         image: `${imagesPrefix}/faq.jpg`,
         title: "FAQ",
         subtitle: "1 Example",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
         image: imgBlogPosts,
         title: "Blog Posts",
         subtitle: "11 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
         image: imgTestimonials,
         title: "Testimonials",
         subtitle: "11 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
         image: imgTeam,
         title: "Teams",
         subtitle: "6 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
         image: imgStat,
         title: "Stats",
         subtitle: "3 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
         image: `${imagesPrefix}/call-to-action.jpg`,
         title: "Call to Actions",
         subtitle: "8 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
         image: `${imagesPrefix}/projects.jpg`,
         title: "Applications",
         subtitle: "6 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
         image: `${imagesPrefix}/logo-area.jpg`,
         title: "Logo Areas",
         subtitle: "4 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
         image: `${imagesPrefix}/footers.jpg`,
         title: "Footers",
         subtitle: "10 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
         image: `${imagesPrefix}/general-cards.jpg`,
         title: "General Cards",
         subtitle: "9 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
         image: imgContent,
         title: "Content Sections",
         subtitle: "8 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       }
     ]
@@ -171,14 +171,14 @@ export default [
         image: `${imagesPrefix}/newsletters.jpg`,
         title: "Newsletters",
         subtitle: "6 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
         image: `${imagesPrefix}/contact-sections.jpg`,
         title: "Contact Sections",
         subtitle: "8 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
@@ -213,7 +213,7 @@ export default [
         image: `${imagesPrefix}/toasts.jpg`,
         title: "Notifications",
         subtitle: "3 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
@@ -269,7 +269,7 @@ export default [
         image: `${imagesPrefix}/social-buttons.jpg`,
         title: "Social Buttons",
         subtitle: "2 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {
@@ -297,7 +297,7 @@ export default [
         image: `${imagesPrefix}/tables.jpg`,
         title: "Tables",
         subtitle: "3 Examples",
-        route: "presentation",
+        route: "home",
         pro: true
       },
       {

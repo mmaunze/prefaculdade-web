@@ -2,10 +2,10 @@
 import { onMounted, onUnmounted } from "vue";
 
 //example components
-import NavbarDefault from "@/components/navbars/NavbarDefault.vue";
+
 import DefaultFooter from "@/components/footers/FooterDefault.vue";
 import Header from "@/components/Header.vue";
-import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
+import FilledInfoCard from "@/components/cards/infoCards/FilledInfoCard.vue";
 
 //Vue Prefaculdade components
 import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
@@ -31,13 +31,6 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="container position-sticky z-index-sticky top-0">
-    <div class="row">
-      <div class="col-12">
-        <NavbarDefault :sticky="true" />
-      </div>
-    </div>
-  </div>
   <Header>
     <div
       class="page-header min-vh-75"
@@ -136,7 +129,7 @@ onUnmounted(() => {
                 </h3>
                 <p class="text-white text-md">
                   Cause if you do, it can be yours for FREE. Hit the button
-                  below to navigate to Creative Tim where you can <br />
+                  below to navigate toPrefaculdade where you can <br />
                   find the Design System in HTML. Start a new project or give an
                   old Bootstrap project a new look!
                 </p>
@@ -183,5 +176,5 @@ onUnmounted(() => {
       </div>
     </div>
   </div>
-  <DefaultFooter />
+
 </template>

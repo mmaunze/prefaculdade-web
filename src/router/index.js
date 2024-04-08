@@ -28,17 +28,17 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "presentation",
+      name: "home",
       component: Home,
     },
     {
-      path: "/pages/landing-pages/about-us",
-      name: "about",
+      path: "/pages/quem-somos",
+      name: "sobre",
       component: Sobre,
     },
     {
-      path: "/pages/landing-pages/contact-us",
-      name: "contactus",
+      path: "/pages/contacto",
+      name: "contacto",
       component: Contacto,
     },
     {

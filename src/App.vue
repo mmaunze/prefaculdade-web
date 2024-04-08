@@ -1,21 +1,16 @@
 <script setup>
-/*
-=========================================================
-* Vue Prefaculdade - v2.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/vue-material-kit
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 import { RouterView } from "vue-router";
+import Navbar from "@/components/navbars/NavbarDefault.vue";
+import Footer from "@/components/footers/FooterCentered.vue";
 </script>
 
 <template>
+  <div class="position-sticky z-index-sticky top-0">
+    <Navbar :sticky="true" />
+  </div>
   <router-view />
+ 
+  <div class=" bottom-0">
+    <Footer />  
+  </div>
 </template>

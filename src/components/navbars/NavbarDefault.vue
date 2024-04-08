@@ -17,29 +17,29 @@ const props = defineProps({
     default: () => ({
       route: "https://www.creative-tim.com/product/vue-material-kit",
       color: "bg-gradient-success",
-      label: "Testes Vocacionais"
-    })
+      label: "Testes Vocacionais",
+    }),
   },
   transparent: {
     type: Boolean,
-    default: false
+    default: false,
   },
   light: {
     type: Boolean,
-    default: false
+    default: false,
   },
   dark: {
     type: Boolean,
-    default: false
+    default: false,
   },
   sticky: {
     type: Boolean,
-    default: false
+    default: false,
   },
   darkText: {
     type: Boolean,
-    default: false
-  }
+    default: false,
+  },
 });
 
 // set arrow  color
@@ -98,7 +98,7 @@ watch(
       'my-3 blur border-radius-lg z-index-3 py-2 shadow py-2 start-0 end-0 mx-4 position-absolute mt-4':
         props.sticky,
       'navbar-light bg-white py-3': props.light,
-      ' navbar-dark bg-gradient-dark z-index-3 py-3': props.dark
+      ' navbar-dark bg-gradient-dark z-index-3 py-3': props.dark,
     }"
   >
     <div
@@ -113,11 +113,11 @@ watch(
         :class="[
           (props.transparent && textDark.value) || !props.transparent
             ? 'text-dark font-weight-bolder ms-sm-3'
-            : 'text-white font-weight-bolder ms-sm-3'
+            : 'text-white font-weight-bolder ms-sm-3',
         ]"
-        :to="{ name: 'presentation' }"
+        :to="{ name: 'home' }"
         rel="tooltip"
-        title="Designed and Coded by Creative Tim"
+        title="Designed and Coded byPrefaculdade"
         data-placement="bottom"
       >
         Prefaculdade
@@ -131,12 +131,12 @@ watch(
         "
         to="/"
         rel="tooltip"
-        title="Designed and Coded by Creative Tim"
+        title="Designed and Coded byPrefaculdade"
         data-placement="bottom"
       >
         Prefaculdade
       </RouterLink>
-      
+
       <button
         class="navbar-toggler shadow-none ms-2"
         type="button"
@@ -157,7 +157,217 @@ watch(
         id="navigation"
       >
         <ul class="navbar-nav navbar-nav-hover ms-auto">
-         
+          <!--Cursos -->
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a
+              role="button"
+              class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+              :class="getTextColor()"
+              id="cursos"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i
+                class="material-icons opacity-6 me-2 text-md"
+                :class="getTextColor()"
+                >school</i
+              >
+              Cursos
+              <img
+                :src="getArrowColor()"
+                alt="down-arrow"
+                class="arrow ms-2 d-lg-block d-none"
+              />
+              <img
+                :src="getArrowColor()"
+                alt="down-arrow"
+                class="arrow ms-1 d-lg-none d-block ms-auto"
+              />
+            </a>
+            <div
+              class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md mt-0 mt-lg-3 p-3 border-radius-lg"
+              aria-labelledby="cursos"
+            >
+              <div class="d-none d-lg-block">
+                <ul class="list-group">
+                  <li class="nav-item list-group-item border-0 p-0">
+                    <a
+                      class="dropdown-item py-2 ps-3 border-radius-md"
+                      href=" https://www.creative-tim.com/learning-lab/vue/overview/material-kit/"
+                    >
+                      <h6
+                        class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                      >
+                        Cursos de Licenciatura
+                      </h6>
+                      <span class="text-sm">Cursos do Ensino Superior</span>
+                    </a>
+                  </li>
+                  <li class="nav-item list-group-item border-0 p-0">
+                    <a
+                      class="dropdown-item py-2 ps-3 border-radius-md"
+                      href=" https://www.creative-tim.com/learning-lab/vue/colors/material-kit/"
+                    >
+                      <h6
+                        class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                      >
+                        Cursos Medios
+                      </h6>
+                      <span class="text-sm"
+                        >Cursos do Ensino Tecnico Profissional</span
+                      >
+                    </a>
+                  </li>
+                  <li class="nav-item list-group-item border-0 p-0">
+                    <a
+                      class="dropdown-item py-2 ps-3 border-radius-md"
+                      href=" https://www.creative-tim.com/learning-lab/vue/alerts/material-kit/"
+                    >
+                      <h6
+                        class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                      >
+                        Cursos Profissionalizantes
+                      </h6>
+                      <span class="text-sm">Cursos de Curta duracao</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row d-lg-none">
+                <div class="col-md-12 g-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="./pages/about-us.html"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Cursos de Licenciatura
+                    </h6>
+                    <span class="text-sm">Cursos do Ensino Superior</span>
+                  </a>
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="./pages/about-us.html"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Cursos Medios
+                    </h6>
+                    <span class="text-sm"
+                      >Cursos de Ensino Tecnico Profissional</span
+                    >
+                  </a>
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="./pages/about-us.html"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Cursos Profissionalizantes
+                    </h6>
+                    <span class="text-sm">Cursos de curta duracao</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- Escolas -->
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a
+              role="button"
+              class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+              :class="getTextColor()"
+              id="cursos"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i
+                class="material-icons opacity-6 me-2 text-md"
+                :class="getTextColor()"
+                >house</i
+              >
+              Instituições de Ensino
+              <img
+                :src="getArrowColor()"
+                alt="down-arrow"
+                class="arrow ms-2 d-lg-block d-none"
+              />
+              <img
+                :src="getArrowColor()"
+                alt="down-arrow"
+                class="arrow ms-1 d-lg-none d-block ms-auto"
+              />
+            </a>
+            <div
+              class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md mt-0 mt-lg-3 p-3 border-radius-lg"
+              aria-labelledby="cursos"
+            >
+              <div class="d-none d-lg-block">
+                <ul class="list-group">
+                  <li class="nav-item list-group-item border-0 p-0">
+                    <a
+                      class="dropdown-item py-2 ps-3 border-radius-md"
+                      href=" https://www.creative-tim.com/learning-lab/vue/overview/material-kit/"
+                    >
+                      <h6
+                        class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                      >
+                      Ensino Superior
+                      </h6>
+                      <span class="text-sm">Instituições de Ensino Superior</span>
+                    </a>
+                  </li>
+                  <li class="nav-item list-group-item border-0 p-0">
+                    <a
+                      class="dropdown-item py-2 ps-3 border-radius-md"
+                      href=" https://www.creative-tim.com/learning-lab/vue/colors/material-kit/"
+                    >
+                      <h6
+                        class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                      >
+                        Ensino Medio
+                      </h6>
+                      <span class="text-sm"
+                        >Instituições do Ensino Tecnico Profissional</span
+                      >
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row d-lg-none">
+                <div class="col-md-12 g-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="./pages/about-us.html"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                    Ensino Superior
+                    </h6>
+                    <span class="text-sm">Instituições de Ensino Superior</span>
+                  </a>
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="./pages/about-us.html"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Ensino Medio
+                    </h6>
+                    <span class="text-sm"
+                      >Instituições de Ensino Tecnico Profissional</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!--Exames-->
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
@@ -170,9 +380,9 @@ watch(
               <i
                 class="material-icons opacity-6 me-2 text-md"
                 :class="getTextColor()"
-                >article</i
+                >quiz</i
               >
-              Exames de Admissao
+              Exames de Admissão
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -274,15 +484,31 @@ watch(
                     >
                       Exames Pre Faculdade
                     </h6>
-                    <span class="text-sm"
-                      >Exames Gerados Pela Plataforma</span
-                    >
+                    <span class="text-sm">Exames Gerados Pela Plataforma</span>
                   </a>
                 </div>
               </div>
             </div>
           </li>
-        
+          <!-- Quem somos -->
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <router-link
+            :to="{ name: 'sobre' }"
+              role="button"
+              class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+              :class="getTextColor()"
+              id="sobre"
+              aria-expanded="false"
+            >
+              <i
+                class="material-icons opacity-6 me-2 text-md"
+                :class="getTextColor()"
+                >help</i
+              >
+              Quem somos
+            </router-link>
+            
+          </li>
         </ul>
         <ul class="navbar-nav d-lg-block d-none">
           <li class="nav-item">

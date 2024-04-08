@@ -1,7 +1,7 @@
 <script setup>
 // example components
-import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCard.vue";
-import CenteredBlogCard from "../../../../examples/cards/blogCards/CenteredBlogCard.vue";
+import DefaultInfoCard from "@/components/cards/infoCards/DefaultInfoCard.vue";
+import CenteredBlogCard from "@/components/cards/blogCards/CenteredBlogCard.vue";
 </script>
 <template>
   <section class="py-7">
