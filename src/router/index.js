@@ -146,6 +146,10 @@ const router = createRouter({
       name: "el-typography",
       component: ElTypography,
     },
+    {
+      path: "/:catchAll(.*)",
+      redirect: { name: "home" }
+    }
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
