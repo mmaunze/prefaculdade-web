@@ -47,8 +47,7 @@ onUnmounted(() => {
               Prefaculdade
             </h1>
             <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
-              Start the Development With Bootstrap 5 Design System inspired by
-              Material Design.
+              Orientação Vocacional e Profissional em Mocambique
             </p>
           </div>
         </div>
