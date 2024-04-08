@@ -38,7 +38,7 @@ onMounted(() => {
                 variant="gradient"
                 color="success"
                 class="mb-0 h-100 position-relative z-index-2"
-                >Subscribe</MaterialButton
+                >Inscrever</MaterialButton
               >
             </div>
           </div>

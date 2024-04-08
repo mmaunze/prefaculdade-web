@@ -7,9 +7,9 @@ import capa from "@/assets/img/bg9.jpg";
 import Typed from "typed.js";
 
 //sections
-import Information from "./Sections/Info.vue";
-import AboutTeam from "./Sections/Conteudos.vue";
-import Newsletter from "./Sections/Registo.vue";
+import Info from "./Sections/Info.vue";
+import Conteudos from "./Sections/Conteudos.vue";
+import Registo from "./Sections/Registo.vue";
 
 const body = document.getElementsByTagName("body")[0];
 //hooks
@@ -70,8 +70,8 @@ onUnmounted(() => {
     </div>
   </header>
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
-    <Information />
-    <AboutTeam />
-    <Newsletter />
+    <Info />
+    <Conteudos />
+    <Registo />
   </div>
 </template>
