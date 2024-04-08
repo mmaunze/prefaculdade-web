@@ -2,7 +2,6 @@
 import { onMounted, onUnmounted } from "vue";
 //image
 import capa from "@/assets/img/bg9.jpg";
-
 //dep
 import Typed from "typed.js";
 

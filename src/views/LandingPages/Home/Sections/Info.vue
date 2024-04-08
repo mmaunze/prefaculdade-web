@@ -2,6 +2,8 @@
 // example components
 import DefaultInfoCard from "@/components/cards/infoCards/DefaultInfoCard.vue";
 import CenteredBlogCard from "@/components/cards/blogCards/CenteredBlogCard.vue";
+import orientacao_vocacional from "@/assets/img/pages/home/orientacao_vocacional.jpg"
+
 </script>
 <template>
   <section class="py-7">
@@ -39,8 +41,8 @@ import CenteredBlogCard from "@/components/cards/blogCards/CenteredBlogCard.vue"
         </div>
         <div class="col-lg-4 ms-auto mt-lg-0 mt-6">
           <CenteredBlogCard
-            image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-            title="Orietacao Vocacional e Profissional"
+:image="orientacao_vocacional"
+          title="Orietacao Vocacional e Profissional"
             description="Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards."
           />
         </div>
