@@ -37,11 +37,9 @@ import faculdade from "@/assets/img/pages/escolas/facul2.jpg";
           }"
           
             title="Faculdade"
-            description="
-            
-Unidades académicas primárias de uma universidade ou de um instituto superior que se ocupam do ensino,
- investigação, extensão e aprendizagem num determinado ramo do saber,
-  envolvendo a interacção de vários departamentos académicos e a provisão de ensino conducente à obtenção de um grau ou diploma.
+            description="Unidades académicas primárias de uma universidade ou de um instituto superior que se ocupam do ensino,
+            investigação, extensão e aprendizagem num determinado ramo do saber,
+            envolvendo a interacção de vários departamentos académicos e a provisão de ensino conducente à obtenção de um grau ou diploma.
           "   />
         </div>
       </div>

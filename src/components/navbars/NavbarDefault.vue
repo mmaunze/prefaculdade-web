@@ -321,9 +321,9 @@ watch(
                     </router-link>
                   </li>
                   <li class="nav-item list-group-item border-0 p-0">
-                    <a
+                    <router-link
                       class="dropdown-item py-2 ps-3 border-radius-md"
-                      href=" https://www.creative-tim.com/learning-lab/vue/colors/material-kit/"
+                      :to="{ name : 'ensino-superior' }"
                     >
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -333,7 +333,7 @@ watch(
                       <span class="text-sm"
                         >Instituições do Ensino Tecnico Profissional</span
                       >
-                    </a>
+                    </router-link>
                   </li>
                 </ul>
               </div>
