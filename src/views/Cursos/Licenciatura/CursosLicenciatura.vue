@@ -1,6 +1,5 @@
 <script setup>
 // example components
-import DefaultNavbar from "@/components/navbars/NavbarDefault.vue";
 import Header from "@/components/Header.vue";
 
 // sections

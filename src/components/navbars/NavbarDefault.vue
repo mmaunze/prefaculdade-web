@@ -350,7 +350,7 @@ watch(
                     </h6>
                     <span class="text-sm">Instituições de Ensino Superior</span>
                   </router-link>
-                  <roter-link
+                  <router-link
                     class="dropdown-item py-2 ps-3 border-radius-md"
                     :to ="{ name : 'ensino-superior' }"
                   >
@@ -362,7 +362,7 @@ watch(
                     <span class="text-sm"
                       >Instituições de Ensino Tecnico Profissional</span
                     >
-                  </roter-link>
+                  </router-link>
                 </div>
               </div>
             </div>
