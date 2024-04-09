@@ -339,9 +339,9 @@ watch(
               </div>
               <div class="row d-lg-none">
                 <div class="col-md-12 g-0">
-                  <a
+                  <router-link
                     class="dropdown-item py-2 ps-3 border-radius-md"
-                    href="./pages/about-us.html"
+                    :to="{ name : 'ensino-superior' }"
                   >
                     <h6
                       class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -349,7 +349,7 @@ watch(
                     Ensino Superior
                     </h6>
                     <span class="text-sm">Instituições de Ensino Superior</span>
-                  </a>
+                  </router-link>
                   <roter-link
                     class="dropdown-item py-2 ps-3 border-radius-md"
                     :to ="{ name : 'ensino-superior' }"
