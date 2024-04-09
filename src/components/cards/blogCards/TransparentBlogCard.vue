@@ -18,7 +18,7 @@ defineProps({
     color: String,
     label: String,
     default: () => ({
-      route: "javascript:;",
+      route:  'sobre' ,
       color: "success",
       label: "Read more",
     }),
@@ -39,20 +39,20 @@ defineProps({
     </div>
     <div class="card-body px-0">
       <h5>
-        <a :href="action.route" class="text-dark font-weight-bold">{{
+        <router-link :to="{name : action.route}" class="text-dark font-weight-bold">{{
           title
-        }}</a>
+        }}</router-link>
       </h5>
       <p>
         {{ description }}
       </p>
-      <a
-        :href="action.route"
+      <router-link
+        :to="{name :action.route}"
         class="text-sm icon-move-right"
         :class="`text-${action.color}`"
         >{{ action.label }}
         <i class="fas fa-arrow-right text-xs ms-1"></i>
-      </a>
+      </router-link>
     </div>
   </div>
 </template>
