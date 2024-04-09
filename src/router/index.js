@@ -3,6 +3,9 @@ import Sobre from "@/views/Sobre/Sobre.vue";
 import Home from "@/views/LandingPages/Home/Home.vue";
 import Contacto from "@/views/LandingPages/ContactUs/ContactView.vue";
 import CursosLicenciatura from "@/views/LandingPages/Author/CursosLicenciatura.vue";
+import EnsinoSuperior from "@/views/InstituicoesEnsino/Superior/EnsinoSuperior.vue";
+
+//por ekiminar
 import SignInBasicView from "@/views/LandingPages/SignIn/BasicView.vue";
 import PageHeaders from "@/layouts/sections/page-sections/page-headers/HeadersView.vue";
 import PageFeatures from "@/layouts/sections/page-sections/features/FeaturesView.vue";
@@ -45,6 +48,11 @@ const router = createRouter({
       path: "/conteudos/cursos/cursos-licenciatura",
       name: "cursos-licenciatura",
       component: CursosLicenciatura,
+    },
+    {
+      path: "/conteudos/insituicoes-ensino/ensino-superior",
+      name: "ensino-superior",
+      component: EnsinoSuperior,
     },
     {
       path: "/pages/landing-pages/basic",

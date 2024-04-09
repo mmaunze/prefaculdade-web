@@ -103,7 +103,9 @@ import artes from "@/assets/img/pages/cursos/artes.jpg";
           }"
             :image="agropecuaria"
             title="  Ceincias Agrarias"
-            description="A área de Ciências Agrárias trata dos aspectos de exploração da terra, de criação de animais e de cultivo de vegetais. Suas atividades possuem o objetivo de aumentar a produção, aprimorar as tecnologias de manejo e preservação dos recursos naturais."
+            description="A área de Ciências Agrárias trata dos aspectos de exploração da terra, de criação de animais e de cultivo de vegetais. Suas atividades possuem o objetivo de aumentar a produção, aprimorar as tecnologias de manejo e preservação dos recursos naturais.
+            Profissionais da área de Ciências Agrárias são capazes de propor soluções de melhoria da qualidade e da produtividade de rebanhos, lavouras e de produtos agropecuários. E são diversas as áreas do conhecimento que englobam as Ciências Agrárias
+            "
           />
         </div>
         <div class="col-lg-4 col-sm-6">
@@ -129,7 +131,7 @@ import artes from "@/assets/img/pages/cursos/artes.jpg";
           }"
             :image="educacao"
             title="  Educacao"
-            description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with ..."
+            description="O curso de educação em Moçambique oferece uma sólida formação para aqueles que desejam seguir uma carreira dedicada ao ensino e à promoção da aprendizagem. Com uma ênfase na compreensão das teorias educacionais, práticas pedagógicas e metodologias de ensino, os estudantes são preparados para se tornarem educadores eficazes em uma variedade de contextos educacionais, desde escolas primárias e secundárias até instituições de ensino superior"
           />
         </div>
       </div>

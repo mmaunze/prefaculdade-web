@@ -287,7 +287,7 @@ watch(
               <i
                 class="material-icons opacity-6 me-2 text-md"
                 :class="getTextColor()"
-                >house</i
+                >dashboard</i
               >
               Instituições de Ensino
               <img
@@ -308,9 +308,9 @@ watch(
               <div class="d-none d-lg-block">
                 <ul class="list-group">
                   <li class="nav-item list-group-item border-0 p-0">
-                    <a
+                    <router-link
                       class="dropdown-item py-2 ps-3 border-radius-md"
-                      href=" https://www.creative-tim.com/learning-lab/vue/overview/material-kit/"
+                      :to="{ name : 'ensino-superior' }"
                     >
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -318,7 +318,7 @@ watch(
                       Ensino Superior
                       </h6>
                       <span class="text-sm">Instituições de Ensino Superior</span>
-                    </a>
+                    </router-link>
                   </li>
                   <li class="nav-item list-group-item border-0 p-0">
                     <a
@@ -350,9 +350,9 @@ watch(
                     </h6>
                     <span class="text-sm">Instituições de Ensino Superior</span>
                   </a>
-                  <a
+                  <roter-link
                     class="dropdown-item py-2 ps-3 border-radius-md"
-                    href="./pages/about-us.html"
+                    :to ="{ name : 'ensino-superior' }"
                   >
                     <h6
                       class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -362,7 +362,7 @@ watch(
                     <span class="text-sm"
                       >Instituições de Ensino Tecnico Profissional</span
                     >
-                  </a>
+                  </roter-link>
                 </div>
               </div>
             </div>

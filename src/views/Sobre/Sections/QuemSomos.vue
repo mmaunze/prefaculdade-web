@@ -3,19 +3,21 @@ import RotatingCard from "@/components/cards/rotatingCards/RotatingCard.vue";
 import RotatingCardFront from "@/components/cards/rotatingCards/RotatingCardFront.vue";
 import RotatingCardBack from "@/components/cards/rotatingCards/RotatingCardBack.vue";
 import DefaultInfoCard from "@/components/cards/infoCards/DefaultInfoCard.vue";
+import teste1 from "@/assets/img/pages/sobre/teste1.jpg";
+import teste2 from "@/assets/img/pages/sobre/teste2.jpg";
 </script>
 <template>
   <section class="my-5 py-5">
     <div class="container">
       <div class="row align-items-center">
         <DefaultInfoCard
-              col="col-12"
-              icon="info"
-              title="Pré Faculdade"
-              description="É uma iniciativa que visa apoiar os jovens pré universitários e que desejam ingressar o ensino superior a ter maior visão e conhecimento sobre as carreiras profissionais que desejam seguir, deste modo, aqui você encontrará todas informações necessárias sobre as faculdades públicas e privadas de Moçambique bem como informações sobre os diferentes cursos de licenciatura nas diferentes áreas profissionais."
-            />
+          col="col-12"
+          icon="info"
+          title="Pré Faculdade"
+          description="É uma iniciativa que visa apoiar os jovens pré universitários e que desejam ingressar o ensino superior a ter maior visão e conhecimento sobre as carreiras profissionais que desejam seguir, deste modo, aqui você encontrará todas informações necessárias sobre as faculdades públicas e privadas de Moçambique bem como informações sobre os diferentes cursos de licenciatura nas diferentes áreas profissionais."
+        />
         <div class="col-lg-6 ms-auto">
-          <div class="row justify-content-start">
+          <div class="row justify-content-between">
             <DefaultInfoCard
               col="col-12"
               icon=""
@@ -28,29 +30,27 @@ import DefaultInfoCard from "@/components/cards/infoCards/DefaultInfoCard.vue";
         <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4">
           <RotatingCard>
             <RotatingCardFront
-              image="https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+              :image="teste1"
               icon="touch_app"
-              title="Feel the <br /> Material Kit"
-              description="All the Bootstrap components that you need in a development have been
-        re-design with the new look."
+              title=" Fazer <br /> Teste Vicaccional"
+              description="Faça agora o nosso teste de Orientação Vocacional e Profissional e dê o primeiro passo em direção a uma carreira que realmente faça sentido para você. "
             />
 
             <RotatingCardBack
-              image="https://images.unsplash.com/photo-1498889444388-e67ea62c464b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1365&q=80"
-              title="Discover More"
-              description="You will save a lot of time going from prototyping to full-functional
-                code because all elements are implemented."
+              :image="teste2"
+              title="Fazer Teste Vocacional"
+              description="Responda o teste vocacional com sinceridade para descobrir sua verdadeira paixão e alcançar resultados mais precisos e gratificantes em sua carreira."
               :action="[
                 {
                   route: './/sections/page-sections/hero-sections.html',
-                  label: 'Start with Headers',
+                  label: 'Fazer Teste Vocacional',
                 },
               ]"
             />
           </RotatingCard>
         </div>
       </div>
-      <div class="row justify-content-start mt-5">
+      <div class="row justify-content-between mt-5">
         <DefaultInfoCard
           class="mt-3"
           icon="price_change"

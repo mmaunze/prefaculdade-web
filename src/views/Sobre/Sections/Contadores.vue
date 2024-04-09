@@ -8,7 +8,7 @@ import DefaultCounterCard from "@/components/cards/counterCards/DefaultCounterCa
       <div class="row">
         <div class="col-lg-9 z-index-2 border-radius-xl mx-auto py-3">
           <div class="row">
-            <div class="col-md-4 position-relative">
+            <div class="justify-content-between col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
                 title="Cursos"
@@ -20,7 +20,7 @@ import DefaultCounterCard from "@/components/cards/counterCards/DefaultCounterCa
                 divider="vertical"
               />
             </div>
-            <div class="col-md-4 position-relative">
+            <div class="justify-content-between col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
                 title="Instituicoes de Ensino"

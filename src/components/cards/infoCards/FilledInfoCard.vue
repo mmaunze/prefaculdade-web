@@ -67,14 +67,14 @@ defineProps({
       <p :class="`text-${color.text ?? ''}`">
         {{ description }}
       </p>
-      <a
-        :href="action.route"
+      <router-link
+        :to="{ name :action.route }"
         class="icon-move-right"
         :class="`text-${action.label.color ?? 'success'}`"
       >
         {{ action.label.text }}
         <i class="fas fa-arrow-right text-sm ms-1"></i>
-      </a>
+      </router-link>
     </div>
   </div>
 </template>
