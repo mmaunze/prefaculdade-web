@@ -3,8 +3,8 @@
 import Header from "@/components/Header.vue";
 
 // sections
-import AreasFormacao from "./Sections/AreasFormacao.vue";
-import Cursos from "./Sections/Info.vue";
+import Escolas from "./Sections/Escolas.vue";
+import EnsinoMedio from "./Sections/Info.vue";
 
 // image
 import image from "@/assets/img/city-profile.jpg";
@@ -21,7 +21,7 @@ import image from "@/assets/img/city-profile.jpg";
   </Header>
 
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-4">
-   <Cursos />
-    <AreasFormacao />
+   <EnsinoMedio />
+    <Escolas />
   </div>
 </template>

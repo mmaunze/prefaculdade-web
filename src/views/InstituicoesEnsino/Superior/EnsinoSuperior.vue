@@ -4,7 +4,7 @@ import Header from "@/components/Header.vue";
 
 // sections
 
-import Cursos from "./Sections/InstituicoesEnsinoSuperior.vue";
+import Cursos from "./Sections/Info.vue";
 import AcademiasInstitutosEscolasSuperiores from "./Sections/AcademiasInstitutosEscolasSuperiores.vue";
 import AreasFormacao from "./Sections/UniversidadesFaculdades.vue";
 

@@ -47,7 +47,7 @@ onUnmounted(() => {
             <h1 class="text-white"><span class="text-white" id="typed"></span></h1>
             <div id="typed-strings">
               <h1>Cursos de Licenciatura.</h1>
-              <h1>Cursos Tecnicos Profissionais.</h1>
+              <h1>Cursos Técnicos Profissionais.</h1>
               <h1>Instituições de Ensino Médio.</h1>
               <h1>Instituições de Ensino Superior.</h1>
               <h1>Orientação Vocacional</h1>

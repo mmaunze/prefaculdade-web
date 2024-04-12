@@ -1,6 +1,6 @@
 <script setup>
 // example component
-import HorizontalTeamCard from "@/components/cards/teamCards/HorizontalTeamCard.vue";
+import Conteudos from "@/components/cards/teamCards/HorizontalTeamCard.vue";
 
 // images
 import licenciatura from "@/assets/img/pages/inicio/licenciatura.png";
@@ -27,7 +27,7 @@ nosso objetivo é fornecer um guia completo para ajudá-lo
       </div>
       <div class="row">
         <div class="col-lg-6 col-12">
-          <HorizontalTeamCard
+          <Conteudos
             class="mt-4"
             :image="licenciatura"
             :profile="{ name: 'Cursos de Licenciatura', }"
@@ -38,10 +38,10 @@ nosso objetivo é fornecer um guia completo para ajudá-lo
           />
         </div>
         <div class="col-lg-6 col-12">
-          <HorizontalTeamCard
+          <Conteudos
             class="mt-lg-4 mt-5"
             :image="ensino_medio"
-            :profile="{ name: 'Cursos Tecnicos Profissionais' }"
+            :profile="{ name: 'Cursos Técnicos Profissionais' }"
             :position="{ label: 'Ensino Medio', color: 'info' }"
             description="Ao contrário dos cursos de licenciatura no ensino superior, 
              que tendem a ter uma abordagem mais abrangente e teórica, 
@@ -51,11 +51,11 @@ nosso objetivo é fornecer um guia completo para ajudá-lo
       </div>
       <div class="row mt-4">
         <div class="col-lg-6 col-12">
-          <HorizontalTeamCard
+          <Conteudos
             class="mt-4 z-index-2"
             :image="escolas"
             :profile="{ name: 'Escolas, Faculdades e Institutos', link: 'javascript:;' }"
-            :position="{ label: 'instituicoes de Ensino', color:'info' }"
+            :position="{ label: 'Instituições de Ensino', color:'info' }"
             description="Nossa plataforma oferece detalhes sobre diferentes instituições de ensino,
              seus programas acadêmicos, infraestrutura, corpo docente e muito mais, 
              para que você possa fazer escolhas informadas sobre sua jornada educacional. 
@@ -63,7 +63,7 @@ nosso objetivo é fornecer um guia completo para ajudá-lo
           />
         </div>
         <div class="col-lg-6 col-12">
-          <HorizontalTeamCard
+          <Conteudos
             class="mt-lg-4 mt-5 z-index-2"
             :image="dicas"
             :profile="{ name: 'Dicas úteis e Sugestões' }"

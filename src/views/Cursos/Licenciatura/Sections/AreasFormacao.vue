@@ -18,14 +18,14 @@ import artes from "@/assets/img/pages/cursos/artes.jpg";
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <h3 class="mb-5">Areas de Formacao</h3>
+          <h3 class="mb-5">Areas de Formação</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-4 col-sm-6 mr-10">
           <TransparentBlogCard
             :action="{
-              route: 'sobre',
+              route: 'cursos-engenharia',
               color: 'info',
               label: 'Ver cursos de Engenharia',
             }"
@@ -39,10 +39,10 @@ import artes from "@/assets/img/pages/cursos/artes.jpg";
           :action="{
             route: 'sobre',
             color: 'info',
-            label: 'Ver cursos de Saude',
+            label: 'Ver cursos de saúde',
           }"
             :image="saude"
-            title="  Ciencias de Saude"
+            title="  Ciencias de Saúde"
             description="Trata-se de uma área que apresenta um grande pot onencial tendo em vista, sobretudo, o aumento na expectativa de vida em diversos países. Os profissionais de saúde têm sido cada vez mais requisitados, principalmente em um cenário de escassez de médicos, que ocorre principalmente em locais mais distantes das áreas urbanas."
           />
         </div>
@@ -69,7 +69,7 @@ import artes from "@/assets/img/pages/cursos/artes.jpg";
             label: 'Ver cursos de Business',
           }"
             :image="business"
-            title="Negocios e Financas"
+            title="Negocios e Finanças"
             description="O mercado financeiro é um dos setores que paga os maiores salários do país, mas para ingressar nessa fatia do mercado é preciso possuir uma formação específica que capacite o profissional a compreender e resolver os problemas da área.
             Muito mais do que números, quem trabalha com finanças lida com gestão de pessoas e projetos, leis, logística, além, é claro, de cálculo, estatística e probabilidade, a perspectiva para os profissionais de finanças e contabilidade é otimista e a expectativa é de um aumento no número de contratações."
           />
@@ -82,7 +82,7 @@ import artes from "@/assets/img/pages/cursos/artes.jpg";
             label: 'Ver cursos de Artes',
           }"
             :image="artes"
-            title="  Comunicacao Artes e Cultura"
+            title="  Comunicação Artes e Cultura"
             description="Comunicação e arte são campos que se interligam profundamente e numerosos são os exemplos possíveis, a começar pela imagem. 
 
             Imagem é comunicação e é arte: cinema e fotografia são meios de comunicação que exploram a imagem e suas potencialidades. 
@@ -127,10 +127,10 @@ import artes from "@/assets/img/pages/cursos/artes.jpg";
           :action="{
             route: 'sobre',
             color: 'info',
-            label: 'Ver cursos de Educacao',
+            label: 'Ver cursos de Educação',
           }"
             :image="educacao"
-            title="  Educacao"
+            title="Educação"
             description="O curso de educação em Moçambique oferece uma sólida formação para aqueles que desejam seguir uma carreira dedicada ao ensino e à promoção da aprendizagem. Com uma ênfase na compreensão das teorias educacionais, práticas pedagógicas e metodologias de ensino, os estudantes são preparados para se tornarem educadores eficazes em uma variedade de contextos educacionais, desde escolas primárias e secundárias até instituições de ensino superior"
           />
         </div>

@@ -7,14 +7,11 @@ import { onMounted, onUnmounted } from "vue";
 import Header from "@/components/Header.vue";
 import FilledInfoCard from "@/components/cards/infoCards/FilledInfoCard.vue";
 
-//Vue Prefaculdade components
 import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
 
-// sections
-import PresentationCounter from "./Sections/Contadores.vue";
-import PresentationInformation from "./Sections/QuemSomos.vue";
+import Contadores from "./Sections/Contadores.vue";
+import Info from "./Sections/Info.vue";
 
-//images
 import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
 import wavesWhite from "@/assets/img/waves-white.svg";
 
@@ -57,8 +54,8 @@ onUnmounted(() => {
 
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
 
-    <PresentationCounter />
-    <PresentationInformation />
+    <Contadores />
+    <Info />
     <div class="py-5">
       <div class="container">
         <div class="row">
@@ -92,7 +89,7 @@ onUnmounted(() => {
             class="px-lg-1 mt-lg-0 mt-4 p-4"
             height="h-100"
             :icon="{ component: 'house', color: 'info' }"
-            title="Instituicoes de Ensino Superior"
+            title="Instituições de Ensino Superior"
             description="As instituições de ensino superior são pessoas colectivas de direito público ou privado, com personalidade jurídica, que gozam de autonomia científica e pedagógica, administrativa, disciplinar, financeira e patrimonial, e se classificam consoante a sua missão ou tipo de propriedade e financiamento.
 
             As instituições de ensino superior públicas são aquelas cuja fonte principal de receita é o Orçamento de Estado e são por este supervisionadas por outro lado As instituições de ensino superior privadas são as instituições pertencentes a pessoas colectivas privadas ou mistas, cujas fontes principais de receita são privadas, podendo-se classificar em lucrativas e não lucrativas e revestir a forma de associação, fundação, sociedade comercial ou cooperativa.
@@ -100,7 +97,7 @@ onUnmounted(() => {
             "
             :action="{
               route:
-                'cursos-licenciatura',
+                'ensino-superior',
               label: { text: 'Buscar faculdades' , color: 'info' }
             }"
           />
@@ -110,8 +107,10 @@ onUnmounted(() => {
             class="px-lg-1 mt-lg-0 mt-4 p-4"
             :icon="{ component: 'quiz', color: 'info' }"
             title="Exames de Admissao"
-            description="Material Kit is giving you a lot of pre-made elements. For those
-                who want flexibility, we included many utility classes."
+            description="Temos uma vaga lista de exames de Admissao de todas instituicoes de ensino superior e medio de mocambique
+            Pode baixar os exames ou pode realizar os exames que sao gerados pela nossa IA baseado em exames anteriores combinados 
+            Escolha a opcao que for adequado para si.
+            "
             :action="{
               route:
                 'cursos-licenciatura',

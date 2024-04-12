@@ -21,7 +21,7 @@ import orientacao_vocacional from "@/assets/img/pages/inicio/orientacao_vocacion
               color="info"
               icon="dashboard"
               title="Escolas"
-              description="Descubra opcoes Instituições de Ensino para sua formacao profissional"
+              description="Descubra opcoes Instituições de Ensino para sua Formação profissional"
             />
           </div>
           <div class="row justify-content-start mt-4">
@@ -29,7 +29,7 @@ import orientacao_vocacional from "@/assets/img/pages/inicio/orientacao_vocacion
               color="info"
               icon="quiz"
               title="Exames"
-              description="Encontre Exames Anteriores de Todas Instituicoes ou realize um ecame gerado pela plataforma"
+              description="Encontre Exames Anteriores de Todas Instituições ou realize um ecame gerado pela plataforma"
             />
             <DefaultInfoCard
               color="info"
@@ -41,7 +41,8 @@ import orientacao_vocacional from "@/assets/img/pages/inicio/orientacao_vocacion
         </div>
         <div class="col-lg-4 ms-auto mt-lg-0 mt-6">
           <CenteredBlogCard
-:image="orientacao_vocacional"
+          :image="orientacao_vocacional"
+          :actions ="{ route: 'curso' }" 
           title="Orietacao Vocacional e Profissional"
             description="Descubra o seu caminho profissional ideal! 
              Faça agora o nosso teste de Orientação Vocacional e Profissional 

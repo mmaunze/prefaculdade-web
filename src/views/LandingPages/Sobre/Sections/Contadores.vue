@@ -23,7 +23,7 @@ import DefaultCounterCard from "@/components/cards/counterCards/DefaultCounterCa
             <div class="justify-content-between col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="Instituicoes de Ensino"
+                title="Instituições de Ensino"
                 description="Universidades, Institutos, Escolas Medias e Superiores
                   creativity"
                 :count="152"

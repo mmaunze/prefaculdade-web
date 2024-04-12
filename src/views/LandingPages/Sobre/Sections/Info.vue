@@ -40,12 +40,10 @@ import teste2 from "@/assets/img/pages/sobre/teste2.jpg";
               :image="teste2"
               title="Fazer Teste Vocacional"
               description="Responda o teste vocacional com sinceridade para descobrir sua verdadeira paixão e alcançar resultados mais precisos e gratificantes em sua carreira."
-              :action="[
-                {
-                  route: './/sections/page-sections/hero-sections.html',
-                  label: 'Fazer Teste Vocacional',
-                },
-              ]"
+              :action="{
+                route: 'curso',
+                color: 'info',
+              }"
             />
           </RotatingCard>
         </div>

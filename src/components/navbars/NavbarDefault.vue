@@ -5,7 +5,6 @@ import { useWindowsWidth } from "@/assets/js/useWindowsWidth";
 
 // images
 import ArrDark from "@/assets/img/down-arrow-dark.svg";
-import downArrow from "@/assets/img/down-arrow.svg";
 import DownArrWhite from "@/assets/img/down-arrow-white.svg";
 
 const props = defineProps({
@@ -15,7 +14,7 @@ const props = defineProps({
     color: String,
     label: String,
     default: () => ({
-      route: "https://www.creative-tim.com/product/vue-material-kit",
+      route: "home",
       color: "bg-gradient-success",
       label: "Testes Vocacionais",
     }),
@@ -90,7 +89,7 @@ watch(
 );
 </script>
 <template>
-  <nav
+  <nav  
     class="navbar navbar-expand-lg top-0"
     :class="{
       'z-index-3 w-100 shadow-none navbar-transparent position-absolute my-3':
@@ -117,7 +116,7 @@ watch(
         ]"
         :to="{ name: 'home' }"
         rel="tooltip"
-        title="Designed and Coded byPrefaculdade"
+        title="Prefaculdade"
         data-placement="bottom"
       >
         Prefaculdade
@@ -204,9 +203,9 @@ watch(
                     </router-link>
                   </li>
                   <li class="nav-item list-group-item border-0 p-0">
-                    <a
+                    <router-link
                       class="dropdown-item py-2 ps-3 border-radius-md"
-                      href=" https://www.creative-tim.com/learning-lab/vue/colors/material-kit/"
+                      :to="{ name : 'cursos-medios' }"
                     >
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -214,14 +213,14 @@ watch(
                         Cursos Medios
                       </h6>
                       <span class="text-sm"
-                        >Cursos do Ensino Tecnico Profissional</span
+                        >Cursos do Ensino Técnico Profissional</span
                       >
-                    </a>
+                    </router-link>
                   </li>
                   <li class="nav-item list-group-item border-0 p-0">
-                    <a
+                    <router-link
                       class="dropdown-item py-2 ps-3 border-radius-md"
-                      href=" https://www.creative-tim.com/learning-lab/vue/alerts/material-kit/"
+                      :to="{ name :'cursos-curta-duracao'}"
                     >
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -229,7 +228,7 @@ watch(
                         Cursos Profissionalizantes
                       </h6>
                       <span class="text-sm">Cursos de Curta duracao</span>
-                    </a>
+                    </router-link>
                   </li>
                 </ul>
               </div>
@@ -246,9 +245,9 @@ watch(
                     </h6>
                     <span class="text-sm">Cursos do Ensino Superior</span>
                   </router-link>
-                  <a
+                  <router-link
                     class="dropdown-item py-2 ps-3 border-radius-md"
-                    href="./pages/about-us.html"
+                    :to="{ name :'cursos-medios'}"
                   >
                     <h6
                       class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -256,12 +255,12 @@ watch(
                       Cursos Medios
                     </h6>
                     <span class="text-sm"
-                      >Cursos de Ensino Tecnico Profissional</span
+                      >Cursos de Ensino Técnico Profissional</span
                     >
-                  </a>
-                  <a
+                  </router-link>
+                  <router-link
                     class="dropdown-item py-2 ps-3 border-radius-md"
-                    href="./pages/about-us.html"
+                    :to="{ name :'cursos-curta-duracao'}"
                   >
                     <h6
                       class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -269,7 +268,7 @@ watch(
                       Cursos Profissionalizantes
                     </h6>
                     <span class="text-sm">Cursos de curta duracao</span>
-                  </a>
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -323,7 +322,7 @@ watch(
                   <li class="nav-item list-group-item border-0 p-0">
                     <router-link
                       class="dropdown-item py-2 ps-3 border-radius-md"
-                      :to="{ name : 'ensino-superior' }"
+                      :to="{ name : 'ensino-medio' }"
                     >
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -331,7 +330,7 @@ watch(
                         Ensino Medio
                       </h6>
                       <span class="text-sm"
-                        >Instituições do Ensino Tecnico Profissional</span
+                        >Instituições do Ensino Técnico Profissional</span
                       >
                     </router-link>
                   </li>
@@ -352,7 +351,7 @@ watch(
                   </router-link>
                   <router-link
                     class="dropdown-item py-2 ps-3 border-radius-md"
-                    :to ="{ name : 'ensino-superior' }"
+                    :to="{ name : 'ensino-medio' }"
                   >
                     <h6
                       class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -360,7 +359,7 @@ watch(
                       Ensino Medio
                     </h6>
                     <span class="text-sm"
-                      >Instituições de Ensino Tecnico Profissional</span
+                      >Instituições de Ensino Técnico Profissional</span
                     >
                   </router-link>
                 </div>
@@ -512,12 +511,12 @@ watch(
         </ul>
         <ul class="navbar-nav d-lg-block d-none">
           <li class="nav-item">
-            <a
-              :href="action.route"
+            <router-link
+              :to="action.route"
               class="btn btn-sm mb-0"
               :class="action.color"
               onclick="smoothToPricing('pricing-soft-ui')"
-              >{{ action.label }}</a
+              >{{ action.label }}</router-link
             >
           </li>
         </ul>

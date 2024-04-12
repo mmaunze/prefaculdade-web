@@ -1,8 +1,5 @@
 <script setup>
-// example components
 import DefaultInfoCard from "@/components/cards/infoCards/DefaultInfoCard.vue";
-
-//Vue Prefaculdade components
 </script>
 <template>
   <section class="py-3">

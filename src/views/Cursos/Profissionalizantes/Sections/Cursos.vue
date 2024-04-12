@@ -1,14 +1,17 @@
 <script setup>
+// example components
 import TransparentBlogCard from "@/components/cards/blogCards/TransparentBlogCard.vue";
 import universidade from "@/assets/img/pages/escolas/university.jpg";
 import faculdade from "@/assets/img/pages/escolas/facul2.jpg";
+//Vue Prefaculdade components
+
 </script>
 <template>
   <section class="py-3">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <h3 class="mb-5">Universidades e Faculdades
+          <h3 class="mb-5">Cursos Profissionalizantes
           </h3>
         </div>
       </div>

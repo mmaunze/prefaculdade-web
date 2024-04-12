@@ -19,17 +19,14 @@ defineProps({
   links: {
     type: Array,
     name: String,
-    href: String,
+    destino: String,
     default: () => [
-      { href: "https://www.creative-tim.com/", name: "Home" },
-      { href: "https://www.creative-tim.com/presentation", name: "Sobre" },
-      { href: "https://www.creative-tim.com/presentation", name: "Cursos" },
-      {
-        href: "https://www.creative-tim.com/templates/vuejs",
-        name: "Instituicoes",
-      },
-      { href: "https://www.creative-tim.com/blog", name: "Exames" },
-      { href: "https://www.creative-tim.com/license", name: "Orientacao" },
+      { destino: "home", name: "Home" },
+      { destino: "sobre", name: "Sobre" },
+      { destino: "cursos", name: "Cursos" },
+      { destino: "insituicoes-ensino", name: "Instituições"},
+      { destino: "home", name: "Exames" },
+      { destino: "home", name: "Orientação" },
     ],
   },
 });
@@ -37,17 +34,16 @@ defineProps({
 <template>
   <footer class="footer py-5">
     <div class="container">
-      <div class="row">
+      <div class="row d-flex">
         <div class="col-lg-8 mb-4 mx-auto text-center">
-          <a
-            v-for="{ name, href } of links"
+          <router-link
+            v-for="{ name, destino } of links"
             :key="name"
-            :href="href"
-            target="_blank"
+            :to="{ name : destino}"
             class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
           >
             {{ name }}
-          </a>
+          </router-link>
         </div>
         <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
           <a
